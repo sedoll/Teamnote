@@ -16,6 +16,6 @@ def one(n, k):
         cnt += 1
     print(cnt)
 
-# n, k  = map(int, input().split())
-one(30, 3)
+n, k  = map(int, input().split())
+one(n ,k)
 print("time :", time.time() - start)  # 현재시각 - 시작시간 = 실행 시간
